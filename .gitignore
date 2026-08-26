@@ -1,0 +1,49 @@
+# Ambientes Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Dados e artefatos gerados pela aplicação
+data/
+logs/
+ml_models/
+lstm_models/
+history/
+memory/
+backtest/
+acuracia/
+ml_metrics/
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.tmp
+
+# Relatórios e caches locais
+.coverage
+htmlcov/
+*.log
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
