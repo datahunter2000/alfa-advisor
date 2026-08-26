@@ -86,7 +86,7 @@ O arquivo principal está em [`src/alfa_advisor.py`](src/alfa_advisor.py). A exp
 O desenvolvimento deve ser realizado em um ambiente virtual. O Flask recomenda o uso de ambientes isolados para evitar conflitos entre dependências de diferentes projetos [4].
 
 ```bash
-git clone https://github.com/SEU_USUARIO/alfa-advisor.git
+git clone https://github.com/datahunter2000/alfa-advisor.git
 cd alfa-advisor
 python -m venv .venv
 
